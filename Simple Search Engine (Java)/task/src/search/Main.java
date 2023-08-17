@@ -18,6 +18,7 @@ public class Main {
             System.out.println("No data file specified!");
             return;
         }
+
         List<String> data;
         try {
             data = Files.readAllLines(Paths.get(fileName));
